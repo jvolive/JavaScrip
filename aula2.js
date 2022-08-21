@@ -73,13 +73,28 @@
 // booleanos
 
 // conversao implicita
-const numero1 = 456;
-const numeroString = "456";
+// const numero1 = 456;
+// const numeroString = "456";
 
-//console.log(numero1===numeroString) //false
-// console.log(numero1 == numeroString); // true
+// //console.log(numero1===numeroString) //false
+// // console.log(numero1 == numeroString); // true
 
-// conversao da string em number com number ()
-console.log(numero1 + Number(numeroString));
+// // conversao da string em number com number ()
+// console.log(numero1 + Number(numeroString));
 
 // conversao explicita
+
+
+// exemplos
+
+// let minhaLet;
+// console.log(minhaLet); //undefined
+
+// // atribuindo um valor com TIPO DE DADO STRING
+// minhaLet = "eu sou um texto";
+// console.log(minhaLet); // "eu sou um texto"
+
+// // reatribuindo, desta vez com dado do TIPO NUMBER
+// minhaLet = 100;
+// console.log(minhaLet); //100
+
